@@ -10,11 +10,6 @@ def write_data_to_file(a_file)
    a_file.puts('Zorro')
 end
 
-# reads in each line.
-# you need to change the following code
-# so that it uses a loop which repeats
-# acccording to the number of lines in the File
-# which is given in the first line of the File
 def read_data_from_file(a_file)
   count = a_file.gets.to_i
   puts count.to_s
@@ -25,11 +20,6 @@ def read_data_from_file(a_file)
   puts a_file.gets
 end
 
-# writes data to a file then reads it in and prints
-# each line as it reads.
-# you should improve the modular decomposition of the
-# following by moving as many lines of code
-# out of main as possible.
 def main
   a_file = File.new("mydata.txt", "w") # open for writing
   if a_file  # if nil this test will be false
