@@ -22,6 +22,27 @@ This unit aims to introduce students to structured procedural programming and de
 - Structured programming principles
 - Functional decomposition
 
+# How to
+
+- How to install Gosu?
+  > Some of the tasks here need Gosu to run. Here is the instruction to install Gosu on a Mac.
+  >
+  > > Please go to Gosu repo to learn more. [Gosu](https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X)
+  1. Install Homebrew
+  ```Bash
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  ```
+  2. Install sld2
+  ```bash
+  brew install sdl2
+  ```
+  3. Install Gosu
+  ```bash
+  gem install gosu
+  or
+  sudo gem install gosu
+  ```
+
 # About me
 
-[Name: Denny Son Le](https://github.com/denny-sonle)
+[Denny Son Le](https://github.com/denny-sonle)
