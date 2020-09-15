@@ -45,4 +45,4 @@ This unit aims to introduce students to structured procedural programming and de
 
 # About me
 
-[Denny Son Le](https://github.com/denny-sonle)
+[Dennis Son Le](https://github.com/denny-sonle)
